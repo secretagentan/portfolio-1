@@ -3,18 +3,23 @@
   margin: 5%;
 }
 
-div{
+div {
   text-align: center;
   align: center;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-p, .link {
+p {
   color: #000000;
 }
 
-.link:hover, .text:hover {
+a {
+  color: #000000;
+  margin: 10px;
+}
+
+a:hover, .text:hover {
   color: #04D1B2;
   text-decoration: underline;
 }
