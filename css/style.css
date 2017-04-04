@@ -3,20 +3,36 @@
   margin: 5%;
 }
 
-div{
+div {
   text-align: center;
   align: center;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-p, .link {
+p {
   color: #000000;
 }
 
-.link:hover, .text:hover {
+a {
+  color: #000000;
+}
+
+.text {
+  color: #04D1B2;
+}
+
+a:hover, .text:hover {
   color: #04D1B2;
   text-decoration: underline;
+}
+
+.draggable {
+  display: inline-block;
+  margin: 1%;
+
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
 }
 
 .noselect {
@@ -27,12 +43,4 @@ p, .link {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
-}
-
-.draggable {
-  display: inline-block;
-  margin: 1%;
-
-  -webkit-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
 }
