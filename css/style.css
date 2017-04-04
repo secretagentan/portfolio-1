@@ -16,12 +16,23 @@ p {
 
 a {
   color: #000000;
-  margin: 10px;
+}
+
+.text {
+  color: #04D1B2;
 }
 
 a:hover, .text:hover {
   color: #04D1B2;
   text-decoration: underline;
+}
+
+.draggable {
+  display: inline-block;
+  margin: 1%;
+
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
 }
 
 .noselect {
@@ -32,12 +43,4 @@ a:hover, .text:hover {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
-}
-
-.draggable {
-  display: inline-block;
-  margin: 1%;
-
-  -webkit-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
 }
