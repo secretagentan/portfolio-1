@@ -29,12 +29,7 @@ p, .link {
                                   supported by Chrome and Opera */
 }
 
-#drag-1,
-#drag-2,
-#drag-3,
-#drag-4,
-#drag-5,
-#drag-6 {
+.draggable {
   display: inline-block;
   margin: 1%;
 
