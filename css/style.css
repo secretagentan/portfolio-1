@@ -14,7 +14,7 @@ p {
   color: #000000;
 }
 
-a {
+.link {
   color: #000000;
 }
 
@@ -22,7 +22,7 @@ a {
   color: #04D1B2;
 }
 
-a:hover, .text:hover {
+.link:hover, .text:hover {
   color: #04D1B2;
   text-decoration: underline;
 }
