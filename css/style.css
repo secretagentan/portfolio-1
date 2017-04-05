@@ -29,7 +29,7 @@ p {
 
 .draggable {
   display: inline-block;
-  margin: 1%;
+  margin: 3% 1.5%;
 
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
@@ -43,4 +43,8 @@ p {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+}
+
+.bio {
+  float: right;
 }
