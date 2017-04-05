@@ -22,6 +22,10 @@ p {
   color: #04D1B2;
 }
 
+a.text {
+  color: fuchsia;
+}
+
 .link:hover, .text:hover {
   color: #04D1B2;
   text-decoration: underline;
